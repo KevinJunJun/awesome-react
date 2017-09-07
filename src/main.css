@@ -1,0 +1,64 @@
+footer {
+  height: 100px;
+  margin-top: -100px; }
+
+body {
+  background: white;
+  position: relative; }
+
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #efefef;
+  text-align: center; }
+
+#topbar-wrapper {
+  position: absolute;
+  height: 56px;
+  width: 100%;
+  font-style: italic;
+  background-color: #108ee9; }
+  #topbar-wrapper #topbar {
+    color: white; }
+    #topbar-wrapper #topbar .topbar-left {
+      float: left;
+      height: 100%; }
+    #topbar-wrapper #topbar .logo {
+      font-family: "Blanch Caps", Arial, sans-serif;
+      display: inline-block;
+      line-height: 56px;
+      height: 56px;
+      font-size: 40px;
+      text-align: center;
+      margin-left: 15px;
+      padding-left: 10px;
+      font-weight: bold; }
+    #topbar-wrapper #topbar .brand {
+      margin-left: 10px; }
+
+#page-content-wrapper {
+  position: fixed;
+  top: 56px;
+  width: 100%;
+  height: calc(100% - 56px);
+  overflow-y: auto;
+  padding-bottom: 50px; }
+
+#sidebar-wrapper {
+  position: fixed;
+  left: 0;
+  width: 200px;
+  background: #404040;
+  overflow: hidden;
+  margin-bottom: -5000px;
+  padding-bottom: 5000px; }
+
+#page-content {
+  margin-left: 200px;
+  width: calc(100% - 200px);
+  padding: 10px; }
+
+/*# sourceMappingURL=main.css.map */
